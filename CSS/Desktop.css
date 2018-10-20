@@ -1,0 +1,1206 @@
+/*===============
+SEZIONE GENERALE
+=================*/
+
+/* Resetto valori di default impostati dai browser */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #323232;
+	margin:1.5%;
+	background-image: url("../IMAGES/sfondo.jpg");
+}
+
+.printable {
+	display:none;
+}
+
+
+
+/*===============
+INTESTAZIONE
+=================*/
+
+#Intestazione {
+	position: sticky;
+	top: 0;
+	z-index: 5;
+	background-color: #000;
+	opacity: 0.8;
+}
+
+#logo {
+	float: left;
+	padding: 0.2em;
+	width: 9.19em;
+}
+
+#saltaMenu {
+    position:absolute;
+    height:0;
+    overflow:hidden;   
+}
+
+.Menu {
+	overflow: hidden;
+	font-size: 15px;
+}
+
+.Menu a {
+	float: left;
+	display: block;
+	color: #DAAC5E;
+	text-align: center;
+	font-weight: bold;
+	padding: 2em 0.53em;
+	text-decoration: none;
+	width: auto;
+}
+
+.Menu a:hover {
+	color: #000;
+	background-color: #DAAC5E;
+}
+
+.Menu a.active {
+	color: #000;
+	background-color: #DAAC5E;
+	cursor: default;
+}
+
+#logoutButton {
+	background-color: red;
+	float: right;
+	color: white;
+}
+
+#panelButton {
+	background-color: #4CAF50;
+	float: right;
+	color: white;
+}
+
+#logoutButton:hover, #panelButton:hover {
+	opacity: 0.8;
+}
+
+.sandwich {
+	display: none;
+}
+
+#user {
+	display: none;
+}
+
+/*===============
+FOOTER
+=================*/
+
+#Footer {
+	font-size: 0.8em;
+	line-height: 22px;
+	color: white;
+	background-color: rgb(32,32,32);
+	overflow: hidden;
+	clear: both;
+}
+
+#Footer h2 {
+	font-size: 15px;
+	margin-top: 4em;
+	margin-bottom: 3em;
+}
+
+.blocco {
+	display: block;
+}
+
+#footersx {
+	float: left;
+	padding: 3%;
+	width: 22%;
+}
+
+#logofooter {
+	margin-bottom: 1.5em;
+	width: 50%;
+}
+
+#logofacebook {
+	width: 2em;
+	margin-top: 2em;
+}
+
+#footercx {
+	float: left;
+	padding: 3%;
+	margin-left: 8%;
+	width: 22%;
+}
+
+#footercx ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#footerdx {
+	float: right;
+	padding: 3%;
+	width: 37%;
+}
+
+#Coni {
+	float: left;
+	width: 30%;
+	margin-bottom: 1.5em;
+}
+
+#asi {
+	width: 30%;
+	margin-left: 20%;
+	margin-bottom: 1.5em;
+}
+
+#footerbottom {
+	padding: 0.2em;
+	clear: both;
+	background-color: rgb(26,26,26);
+	text-align: center;
+}
+
+#backTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #DAAC5E;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+	overflow:hidden;
+}
+
+#backTop:hover {
+    background-color: #DAAC5E;
+    opacity: 0.5;
+}
+
+/*===============
+PAGINA HOME
+=================*/
+
+.homeImg {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.image {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	margin-top: -19px;
+}
+
+.bottom-left {
+	width: 100%;
+	text-align: left;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+	line-height: normal;
+	font-size:30pt;
+}
+
+#DescrizionePalestra {
+	color:white;
+}
+
+.separator {
+	overflow: hidden;
+	position:relative;
+	display:block;
+	height:1px;
+	background-color: #eaeaea;
+	margin:10px 0;
+}
+
+#DescrizionePalestra h3 {
+	font-size:150%;
+	font-weight:600;
+}
+
+.ridimensionasx {
+	float:left;
+	width:50%;
+	height: 400px;
+	object-fit: cover;
+}
+
+.ridimensionadx {
+	float:right;
+	width:50%;
+	height: 400px;
+	object-fit: cover;
+}
+
+.limitesx {
+	margin-right:55%;
+}
+
+.limitedx {
+	margin-left:55%;
+}
+
+.sx {
+	text-align:left;
+	float:left;
+	margin:5% 10%;
+	font-size:95%;
+}
+
+.sx p {
+	text-align: justify;
+}
+
+.dx {
+	text-align:left;
+	float:right;
+	margin:5% 10%;
+	font-size:95%;
+}
+
+.dx p {
+	text-align: justify;
+}
+
+.elenchiHome {
+	float:left;
+	margin-left:7%;
+	margin-top:2%;
+}
+
+/*===============
+PAGINA CHI SIAMO
+=================*/
+
+#GennyTiengo, #FabioFerro {
+	padding: 2em;
+	overflow: hidden;
+	font-size: 18px;
+	color: white;
+}
+
+#GennyTiengoImg, #FabioFerroImg {
+	margin-right: 3em;
+	float: left;
+	border-radius: 50px;
+	width: 20%;
+	object-fit: cover;
+}
+
+#Istruttori h2 {
+	font-size: 50px;
+	margin-top:0;
+	margin-left: 25%;
+}
+
+#Istruttori ul {
+	padding: 2em;
+	margin-left: 25%;
+}
+
+/*===============
+PAGINA DOVE SIAMO
+=================*/
+
+#noscriptMap{
+	font-size: 24px;
+	color:white;
+	text-align: left;
+}
+
+#titolodovesiamo {
+	position: absolute;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FD0303;
+	font-size: 6vw;
+	font-weight:800;
+	width: 100%;
+	text-align: right;
+	right: 10%;
+    top: 0;
+}
+
+#map {
+	float: left;
+	width: 600px;
+	height: 600px;
+	margin-right: 3em;
+}
+
+#GoogleMaps {
+	color: white;
+	margin-top: 2em;
+	padding: 2em;
+	overflow: hidden;
+}
+
+#GoogleMaps h2 {
+	font-size: 50px;
+	margin-top:0;
+	margin-left: 25%;
+}
+
+#GoogleMaps p {
+	padding: 2em;
+	margin-left: 25%;
+}
+
+/*===============
+PAGINA ATTIVITA
+=================*/
+
+#Presentazione {
+	color: #DAAC5E;
+	width:95%;
+	font-family: Verdana;
+	position: relative;
+	font-size: 18px;
+	text-align: left;
+	left: 5%;
+	margin-top: 1em;
+	margin-bottom: 1em;   
+}
+
+#Presentazione p {
+	color:white;
+}
+
+#titoloPagina {
+	font-size: 40px;
+}
+
+#powerpump, #spinning, #fitboxe, #jumpfit, #step {
+	margin: 5% 15%;
+    overflow: hidden;
+	text-align: justify;
+}
+
+.textAttContainer {
+	margin:1%;
+	float:left;
+	width:46%;
+}
+
+.testoAtt {	
+	width:100%;
+	color:white;
+}
+
+.courseimg {
+	float:left;
+	margin-right: 2%;
+	width: 50%;
+	height: 380px;
+	border-radius: 50px;
+	object-fit: cover;
+}
+
+.titleCourseContent {
+	width:100%;
+	float:left;
+	margin-bottom: 2%;
+}
+
+#PowerpumpCourseContent {
+	margin-left: 6%;
+}
+
+#SpinningCourseContent {
+	margin-left: 10%;
+}
+
+#FitboxeCourseContent {
+	margin-left: 12%;
+}
+
+#JumpfitCourseContent {
+	margin-left: 10%;
+}
+
+#StepCourseContent {
+	margin-left: 15%;
+}
+
+.titleAttPower {
+  color: rgb(0,100,180);
+  font-size: 22pt;
+  font-weight: bold;
+  margin-top:3%;
+}
+
+.titleAttSpinning {
+  color:rgb(30,128,23);
+  float:left;
+  font-size: 22pt;
+  font-weight: bold;
+  margin-top:3%;
+}
+
+.titleAttFitBoxe {
+  color: rgb(220,120,0);
+  float:left;
+  font-size: 22pt;
+  font-weight: bold;
+  margin-top:3%;
+}
+
+.titleAttJumpFit {
+  color:rgb(200,50,0);
+  float:left;
+  font-size: 22pt;
+  font-weight: bold;
+  margin-top:3%;
+}
+
+.titleAttStep {
+  color: rgb(161,22,101);
+  float:left;
+  font-size: 22pt;
+  font-weight: bold;
+  margin-top:3%;
+}
+
+.iconAtt {
+	float:left;
+	width:10%;
+	margin-left:25%;	
+}
+
+/*===============
+PAGINA CALENDARIO
+=================*/
+
+.calendario {
+	width: 90%;
+	margin:7%;
+	float:left;
+	text-align:left;
+	color:white;
+	font-weight: bold;
+	position: relative;
+
+}
+#salafitness {
+	font-size:140%;
+	clear:both;
+	margin-left:1.5em;
+}
+
+.giornovoce {
+	font-size:140%;
+}
+
+.vocecalendario {
+	float:left;
+	margin:0;
+	width: 16.6%;
+}
+
+.orari {
+	list-style-type: none;
+	font-size: 110%;
+	margin:0;
+	padding:0;
+}
+
+.orari li {
+	margin:1.3em 0em 3.6em 0em;
+}
+
+.oraricorsi {
+	list-style-type: none;
+	font-size: 110%;
+	margin:0;
+	padding:0;
+}
+
+.oraricorsi li a {
+	width:100%;
+	height:4em;
+}
+
+.oraricorsi li {
+	margin:0;
+}
+
+.corsovuoto {
+	border:1px solid white;
+	width:auto;
+	height:4em;
+}
+
+.spinning {
+	border:1px solid white;
+	width:auto;
+	height:4em;
+	background-color: green;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.spinning:hover {
+	background-color: rgb(0,230,0);
+	opacity: 0.7;
+}
+
+.step {
+	background-color: rgb(161,22,101);
+	border:1px solid white;
+	width:auto;
+	height:4em;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.step:hover {
+	background-color: rgb(120,0,40);
+	opacity: 0.8;
+}
+
+.powerpump {
+	background-color:  rgb(0,100,120);
+	border:1px solid white;
+	width:auto;
+	height:4em;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.powerpump:hover {
+	background-color: rgb(0,100,180);
+	opacity: 0.8;
+}
+
+.jumpfit {
+	background-color: rgb(200,50,0);
+	border:1px solid white;
+	width:auto;
+	height:4em;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.jumpfit:hover {
+	background-color: rgb(220,120,0);
+	opacity: 0.8;
+}
+
+.fitboxe {
+	background-color: red;
+	border:1px solid white;
+	width:auto;
+	height:4em;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.fitboxe:hover {
+	background-color: rgb(120,0,0);
+	opacity: 0.8;
+}
+
+.corsovoce {
+	margin-top:1.2em;
+}
+
+#imgcal {
+	width:86%;
+	height:40em;
+	position:absolute;
+
+}
+
+/*===============
+PAGINA NEWS
+=================*/
+
+.newscont {
+	float:left;
+	width:60%;
+	margin:3% 20%;
+}
+
+.titlenews {
+	text-align:center;
+	margin:2%;
+	margin-bottom:0%;
+	color:#DAAC5E;
+	font-size: 30px;
+}
+
+.pubblicazione {
+	float:right;
+	margin:0 1%;
+	color:white;
+	font-size: 15px;
+}
+
+.imgnews {
+	float:left;
+	margin:2% 0;
+	width:99%;
+	overflow: hidden;
+	height:24em;
+	object-fit: cover;
+}
+
+.corpopos {
+	float:left;
+	width:100%;
+}
+
+.textnews {
+	float:left;
+	margin:0;
+	text-align: justify;
+	width:100%;
+	color:white;
+}
+
+/*===============
+PAGINA GALLERIA
+=================*/
+
+#titologalleria {
+	position: absolute;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: rgb(107,27,87);
+	font-size: 6vw;
+	font-weight:800;
+	width: 100%;
+	text-align: right;
+	right: 5%;
+    top: -5%;
+}
+
+.gallerymain {
+	display:table;
+	width:100%;
+}
+
+.album {
+	border:2px solid black;
+	float:left;
+	align-items: center;
+	width:25.33% ;/*32.3%*/
+	margin:0% 4% 2% 4%;
+	overflow: hidden;
+	height:16em;
+}
+
+.album:hover {
+	border:2px solid #ffffff;
+}
+
+.album:hover .albumname {
+	border-bottom:2px solid #ffffff;
+	color:#ffffff;
+}
+
+.album .albumname {
+	border-bottom: 2px solid black;
+	font-weight: bold;
+	color:white;
+	text-align: center;
+	padding:0.5em;
+}
+
+.album .galleryimg {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+#gallerypictitle {
+	font-weight: bold;
+	font-size:400%;
+	margin-top:0%;
+	margin-bottom:2%;
+	color:white;
+	text-align: center;
+}
+
+#back {
+	font-size: 18px;
+	color:white;
+	text-decoration: underline;
+	margin-right: 5%;
+	text-align: right;
+}
+
+#back:hover {
+	color:#DAAC5E;
+}
+
+#gallerypicbloc {
+	display: block;
+  	width: 100%;
+}
+
+.gallerypic {
+	margin: 2em 0em 4em 4.4em;
+	width:90%;
+}
+
+.gallerypicmini {
+	display: inline-block;
+	vertical-align: text-top;
+	width: 31.3%;
+	height:25em;
+  	margin:1%;
+  	border:2px solid black;
+	object-fit: cover;
+}
+
+.gallerypicmini:hover {
+	border:2px solid #ffffff;
+}
+
+.gallerypicmini:active {
+	border:2px solid #ffffff;
+}
+
+#albumtitle {
+	color:#DAAC5E;
+}
+
+.sfondonero {
+	
+}
+
+.imgsfondonero {
+	width:60%;
+	margin:1% 20% 0 20%;
+}
+
+#imgsfondoneroa {
+	color:white;
+	margin-left:71%;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#imgsfondoneroa:hover {
+	color:#DAAC5E;
+}
+
+#sfondonerocont {
+	width:100%;
+	margin-top:5%;
+}
+
+/*===============
+FORM
+=================*/
+
+.FormContainer {
+	background: #3D5A80;
+	height: 530px;
+	width: 700px;
+	position: relative;
+	margin: 3% auto;
+	border-radius: 10px;
+	overflow: hidden;
+	display: flex;
+	border-radius: 0.1875rem;
+}
+
+.signupOverlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(33,33,33);
+}
+
+.containerChild {
+	width: 50%;
+	height: 100%;
+	color: #fff;
+}
+
+.leftContent {
+	position: relative;
+	z-index: 2;
+	padding:9%;
+}
+
+label {
+	font-size: 0.85em;
+	text-transform: uppercase;
+	color: #ccc;
+}
+
+.invisibleLabel {
+    line-height: 0;
+    font-size : 0px;
+    overflow: hidden;
+}
+
+*,:after,:before {
+	box-sizing:border-box;
+}
+
+a {
+	color:inherit;
+	text-decoration:none;
+}
+
+
+.loginWrap {
+	width:100%;
+	height: 100%;
+	margin:auto;
+	position:relative;
+	background-color: rgb(80,80,80);
+}
+
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding: 4%;
+	padding-top:9%;
+}
+
+#exit {
+	position: absolute;
+	top: 0;
+	right: 0.2em;
+	font-size: 50px;
+	color: red;
+	cursor: pointer;
+}
+
+.login-form .group .label,
+.login-form .group .button {
+	text-transform:uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+
+}
+
+.login-form {
+	position:relative;
+	margin-top: 5%;
+}
+
+.login-form .group {
+	margin-bottom:15px;
+}
+
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button {
+	width:100%;
+	color:#e3e3e3;
+	display:block;
+	outline: none;
+}
+
+.login-form .group .input,
+.login-form .group .button {
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+	outline: none;
+}
+
+.login-form .group .label {
+	color:white;
+	font-size:12px;
+}
+
+.login-form .group .button {
+	background:rgb(55,55,55);
+	cursor: pointer;
+}
+.login-form .group .button:hover {
+	background:#DAAC5E;
+	color:rgb(55,55,55);
+}
+select option {
+    background: #516b8d;
+}
+
+/*===============
+MESSAGGI D'ERRORE
+=================*/
+
+.message {
+	position: relative;
+	border:3px solid white;
+	margin:5% 25%;
+	width:50%;
+	height:14em;
+	background-color: rgb(50,50,50);
+	text-align:center;
+}
+
+.messagetext {
+	color:white;
+	margin-top:10%;
+	margin-bottom:20%;
+}
+
+.messagelink1 {
+	position: absolute;
+	bottom: 35px;
+	right: 10px;
+	color:white;
+	text-decoration: underline;
+}
+
+.messagelink2 {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	color:white;
+	text-decoration: underline;
+}
+
+.messagelink1:hover,
+.messagelink2:hover {
+	color:#DAAC5E;
+}
+
+/*===============
+PULSANTI FORM
+=================*/
+
+#btnContainer {
+	width: 95%;
+	margin: auto;
+}
+
+.btn {
+	width: 247px;
+	color: #fff;
+	border: none;
+	font-size: inherit;
+	cursor: pointer;
+	display: inline-block;
+	margin: 18px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size:14px;
+	position: relative;
+	text-align: center;
+}
+
+.btn:before {
+	font-family: 'FontAwesome';
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 2.2;
+	font-size: 200%;
+	width: 60px;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+.btn-sep {
+	padding: 25px 10px 25px 70px;
+}
+
+.btn-sep:before {
+	background: rgba(0,0,0,0.15);
+}
+
+.btn-1 {
+	background: #3498db;
+}
+
+.btn-2 {
+	background: #2ecc71;
+}
+
+.btn-3 {
+	background: #e74c3c;
+}
+
+.btn-4 {
+	background: #34495e;
+}
+
+.btn-5 {
+	background: #dead00;
+}
+
+.btn-6 {
+	background: #da8709;
+}
+
+.btn-7 {
+	background: #4c7610;
+}
+
+.btn-8 {
+	background: #81350c;
+}
+
+.btn-9 {
+	background: #95a190;
+}
+
+.btn-10 {
+	margin: 0;
+	background: #76a8f7;
+}
+
+.btn-11 {
+	margin: 0;
+	background: #058205;
+}
+
+.btn-12 {
+	margin: 0;
+	padding: 25px 0 25px 60px;
+	background: #f45c42;
+}
+
+.icon-adduser:before {
+	content: "\f234";
+}
+
+.icon-addadmin:before {
+	content: "\f234";
+}
+
+.icon-addnews:before {
+	content: "\f1ea";
+}
+
+.icon-addphoto:before {
+	content: "\f030";
+}
+
+.icon-showusers:before {
+	content: "\f0c0";
+}
+
+.icon-shownews:before {
+	content: "\f02d";
+}
+
+.icon-showalbum:before {
+	content: "\f03e";
+}
+
+.icon-addfattura:before {
+	content: "\f153";
+}
+
+.icon-addcorso:before {
+	content: "\f055";
+}
+
+.icon-removecorso:before {
+	content: "\f056";
+}
+
+.icon-schedadownimg:before {
+	content: "\f019";
+	align-content: center;
+}
+
+/*===============
+TABELLE
+=================*/
+
+.tableResponsive {
+    overflow-x: auto;
+	clear: both;
+}
+
+table {
+    width: 90%;
+	margin: 2em auto;
+    background-color: rgb(120,120,120);
+    border: solid 1px #000000;
+    border-collapse: collapse;
+    color:#ffffff;
+}
+
+thead {
+	background-color: rgb(77,77,77);
+    color: #ffffff;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+	background-color: rgb(77,77,77);
+	
+}
+
+th, td {
+	padding: 0.5em;
+}
+
+td {
+	vertical-align: bottom;
+}
+
+/*===============
+USER PANEL
+=================*/
+
+.bloccoDati {
+	margin: 3% auto;
+	width:80%;
+}
+
+.TabUtente {
+	border:1px solid white;
+	padding:1%;
+}
+
+.EntryUtente {
+	float: left;
+	color:#DAAC5E;
+	font-weight: bold;
+	font-size:18px;
+}
+
+.EntryTab {
+	color: white;
+	font-weight: bold;
+	font-size:18px;
+}
+
+.userData {
+	color: white;
+	margin:1% 1%;
+	font-weight: bold;
+	font-size:20px;
+}

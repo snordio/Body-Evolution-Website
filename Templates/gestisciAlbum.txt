@@ -1,0 +1,22 @@
+<div id="corpo">
+	<div id="Presentazione">
+		<h1 id="titoloPagina">Gestisci album</h1>
+		<p>Gestisci gli album presenti nel sito</p>
+	</div>
+	<div id="back"><a href="adminPanel.php" title="Ritorna al pannello amministratore">Torna al pannello amministratore</a></div>
+	<div id="btnContainer">
+		<a class="btn btn-3 btn-sep icon-addphoto" href="formGalleria.php" title="Inserisci nuovo album">Aggiungi foto</a>
+	</div>
+	<div class="tableResponsive"> 
+	<table aria-label="Tabella contenente la lista degli album presenti nel sito">
+	<thead>
+		<tr>
+			<th scope="col">Album</th>
+			<th scope="col">Numero foto</th>
+			<th scope="col">Data</th>
+			<th class="notPrint" scope="col">Elimina galleria</th>
+			<th class="notPrint" scope="col">Rinomina galleria</th>
+			<th class="notPrint" scope="col">Gestisci foto</th>
+		</tr>
+	</thead>
+	<tbody>

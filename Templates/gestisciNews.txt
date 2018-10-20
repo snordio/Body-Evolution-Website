@@ -1,0 +1,21 @@
+<div id="corpo">
+	<div id="Presentazione">
+		<h1 id="titoloPagina">Gestisci <span lang="en">news</span></h1>
+		<p>Gestisci le <span lang="en">news</span> presenti nel sito</p>
+	</div>
+	<div id="back"><a href="adminPanel.php" title="Ritorna la pannello amministratore">Torna al pannello amministratore</a></div>
+	<div id="btnContainer">
+		<a class="btn btn-2 btn-sep icon-addnews" href="formNews.php" title="Inserisci una news">Aggiungi <span lang="en">news</span></a>
+	</div>
+	<div class="tableResponsive"> 
+	<table aria-label="Tabella contenente la lista delle news presenti nel sito">
+	<thead>
+		<tr>
+			<th scope="col">Titolo</th>
+			<th scope="col">Data</th>
+			<th scope="col">Immagine</th>
+			<th scope="col">Descrizione</th>
+			<th class="notPrint" scope="col">Elimina <span lang="en">news</span></th>
+		</tr>
+	</thead>
+	<tbody>

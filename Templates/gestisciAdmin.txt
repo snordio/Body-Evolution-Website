@@ -1,0 +1,22 @@
+<div id="corpo">
+	<div id="Presentazione">
+		<h1 id="titoloPagina">Gestisci <span lang="en">Admin</span></h1>
+		<p>Gestisci gli amministratori registrati</p>
+	</div>
+	<div id="back"><a href="adminPanel.php" title="Ritorna al pannello amministratore">Torna al pannello amministratore</a></div>
+	<div id="btnContainer">
+		<a class="btn btn-5 btn-sep icon-addadmin" href="formAdmin.php" title="Inserisci nuovo admin">Aggiungi <span lang="en">admin</span></a>
+	</div>
+	<div class="tableResponsive"> 
+	<table aria-label="Tabella contenente la lista degli admin registrati">
+	<thead>
+		<tr>
+			<th scope="col">Codice Utente</th>
+			<th scope="col">Nome</th>
+			<th scope="col">Cognome</th>
+			<th scope="col"><span lang="en">Password</span></th>
+			<th scope="col"><span lang="en">Email</span></th>
+			<th class="notPrint" scope="col">Elimina Utente</th>
+		</tr>
+	</thead>
+	<tbody>

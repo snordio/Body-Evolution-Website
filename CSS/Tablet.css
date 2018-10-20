@@ -1,0 +1,167 @@
+/*===============
+SEZIONE GENERALE
+=================*/
+
+#contenitore {
+	margin: 0;
+	border: 0;
+}
+
+/*===============
+INTESTAZIONE
+=================*/
+
+#Intestazione {
+	position: static;
+}
+
+#logo {
+	float: none;
+	padding: 0.2em;
+	width: 25%;
+	margin-left: 38%;
+}
+
+.Menu a {
+	display: none;
+	padding: 1em 0.64em;
+}
+
+.sandwich {
+	position: absolute;
+    left: 30px;
+    top: 35px;
+	font-size: 50px;
+	display: block;
+	color: #DAAC5E;
+	cursor: pointer;
+}
+
+#user {
+	position: absolute;
+    right: 30px;
+    top: 45px;
+	width: 7%;
+	display: block;
+	color: #DAAC5E;
+	cursor: pointer;
+}
+
+.Menu.responsive {
+	position: relative;
+}
+  
+.Menu.responsive a {
+    float: none;
+    display: block;
+	width: 100%;
+    text-align: left;
+}
+
+.Menu.responsive #logoutButton {
+    float: none;
+    display: block;
+	width: 100%;
+    text-align: left;
+}
+
+.Menu.responsive #panelButton {
+    display: none;
+}
+
+/*===============
+FOOTER
+=================*/
+
+#Footer h2 {
+	margin: 0;
+}
+
+#footersx h2 {
+	margin-top: 2em;
+}
+
+#footercx {
+	width: 32%;
+}
+
+#footercx h2 {
+	margin-bottom: 1em;
+}
+
+#logofooter, #Coni, #asi {
+	display: none;
+}
+
+/*===============
+PAGINA HOME
+=================*/
+
+.image {
+	height: 400px;
+}
+
+/*===============
+PAGINA DOVE SIAMO
+=================*/
+
+#map {
+	float: none;
+	width: 100%;
+}
+
+#GoogleMaps .separator {
+	display: none;
+}
+
+#GoogleMaps h2 {
+	font-size: 30px;
+	margin-top: 10px;
+	margin-left: 0;
+}
+
+#GoogleMaps p {
+	padding: 0;
+	margin-left: 0;
+}
+
+/*===============
+PAGINA ATTIVITA
+=================*/
+
+#powerpump, #spinning, #fitboxe, #jumpfit, #step {
+	margin: 5%;
+}
+
+/*===============
+PAGINA CALENDARIO
+=================*/
+
+.calendario {
+	font-size: 80%;
+}
+
+#imgcal {
+	height:35em;
+}
+
+/*===============
+PAGINA GALLERIA
+=================*/
+
+#gallerypictitle {
+	font-size:300%;
+}
+
+.gallerypicmini {
+	height:15em;
+}
+
+/*===============
+PAGINA NEWS
+=================*/
+
+.newscont {
+	width:96%;
+	margin:3% 2%;
+}

@@ -1,0 +1,395 @@
+/*===============
+SEZIONE GENERALE
+=================*/
+
+#contenitore {
+	margin: 0;
+	border: 0;
+}
+
+/*===============
+INTESTAZIONE
+=================*/
+
+#Intestazione {
+	position: static;
+}
+
+#logo {
+	float: none;
+	padding: 0.2em;
+	width: 25%;
+	margin-left: 38%;
+}
+
+.Menu a {
+	display: none;
+	padding: 1em 0.64em;
+}
+
+.sandwich {
+	position: absolute;
+    left: 15px;
+    top: 20px;
+	font-size: 23px;
+	display: block;
+	color: #DAAC5E;
+	cursor: pointer;
+}
+
+#user {
+	position: absolute;
+    right: 15px;
+    top: 24px;
+	width: 7%;
+	display: block;
+	color: #DAAC5E;
+	cursor: pointer;
+}
+
+.Menu.responsive {
+	position: relative;
+}
+  
+.Menu.responsive a {
+    float: none;
+    display: block;
+	width: 100%;
+    text-align: left;
+}
+
+.Menu.responsive #logoutButton {
+    float: none;
+    display: block;
+	width: 100%;
+    text-align: left;
+}
+
+.Menu.responsive #panelButton {
+    display: none;
+}
+
+/*===============
+FOOTER
+=================*/
+
+#Footer {
+	position: relative;
+}
+
+#Footer h2 {
+	margin-top: 6%;
+	margin-bottom: 0;
+}
+
+#footersx {
+	float: none;
+	width: 95%;
+}
+
+#footercx {
+	float: none;
+	width: 95%;
+	margin-left: 0;
+}
+
+#footercx h2 {
+	margin-top: 0;
+}
+
+#footercx ul {
+	margin-left: 4%;
+}
+
+#footerdx {
+	display: none;
+}
+
+#logofacebook {
+	width:4em;
+	margin:0;
+	position: absolute;
+	top:15px;
+	right:15px;
+}
+
+#logofooter, #Coni, #asi {
+	display: none;
+}
+
+/*===============
+PAGINA HOME
+=================*/
+
+.image {
+	height: 200px;
+}
+
+.bottom-left {
+    bottom: 15px;
+    left: 15px;
+	font-size: 70%;
+}
+
+.ridimensionasx {
+	float:none;
+	width:100%;
+	height: 150px;
+	object-fit: cover;
+}
+
+.ridimensionadx {
+	float:none;
+	width:100%;
+	height: 150px;
+	object-fit: cover;
+}
+
+.limitesx {
+	margin-right:0;
+}
+
+.limitedx {
+	margin-left:0;
+}
+
+.limitesx h3{
+	margin-top:3%;
+}
+
+.limitedx h3{
+	margin-top:3%;
+}
+
+.sx, .dx {
+	text-align:left;
+	float:left;
+	margin:7% 3%;
+	font-size:95%;
+}
+
+/*===============
+PAGINA DOVE SIAMO
+=================*/
+
+#map {
+	float: none;
+	width: 100%;
+	height: 300px;
+}
+
+#GoogleMaps {
+	margin-top: 1em;
+	padding: 1em;
+}
+
+#GoogleMaps .separator {
+	display: none;
+}
+
+#GoogleMaps h2 {
+	font-size: 30px;
+	margin-top: 10px;
+	margin-left: 0;
+}
+
+#GoogleMaps p {
+	padding: 0;
+	margin-left: 0;
+}
+
+/*===============
+PAGINA ATTIVITA
+=================*/
+
+#powerpump, #spinning, #fitboxe, #jumpfit, #step {
+	margin: 5%;
+}
+
+.courseimg {
+	float:none;
+	width: 100%;
+	height: 150px;
+	border-radius: 0;
+}
+
+.textAttContainer {
+	margin:0;
+	float:none;
+	width:100%;
+}
+
+#PowerpumpCourseContent {
+	margin-left: -5%;
+}
+
+#SpinningCourseContent {
+	margin-left: 0%;
+}
+
+#FitboxeCourseContent {
+	margin-left: 2%;
+}
+
+#JumpfitCourseContent {
+	margin-left: 2%;
+}
+
+#StepCourseContent {
+	margin-left: 10%;
+}
+
+/*===============
+PAGINA CALENDARIO
+=================*/
+
+.calendario {
+	width: 95%;
+	margin:3%;
+	font-size: 50%;
+}
+
+.giornovoce {
+	font-size:120%;
+}
+
+.orari {
+	font-size: 100%;
+}
+
+.orari li {
+	margin:2.7em 0em 3.4em 0em;
+}
+
+#imgcal {
+	height:35em;
+}
+
+/*===============
+PAGINA CHI SIAMO
+=================*/
+#GennyTiengo, #FabioFerro {
+	padding: 1em;
+}
+
+#GennyTiengoImg, #FabioFerroImg {
+	margin-right: 0;
+	width: 40%;
+}
+
+#Istruttori h2 {
+	font-size: 30px;
+	margin-left: 45%;
+}
+
+#Istruttori ul {
+	padding: 0;
+	margin-left: 48%;
+}
+
+/*===============
+PAGINA GALLERIA
+=================*/
+
+#gallerypictitle {
+	font-size:100%;
+}
+
+.gallerypicmini {
+	height:10em;
+}
+
+.album {
+	height:10em;
+}
+
+.album .albumname {
+	font-size: 15px;
+}
+
+#imgsfondoneroa {
+	margin-left:40%;
+}
+
+/*===============
+PAGINA NEWS
+=================*/
+
+.newscont {
+	width:96%;
+	margin:3% 2%;
+}
+
+.imgnews {
+	height:14em;
+}
+
+/*===============
+FORM
+=================*/
+
+.FormContainer {
+	width: 350px;
+	height: 450px;
+	font-size: 60%;
+}
+
+.login-form {
+	margin-top: 12%;
+}
+
+.login-form .group .label,
+.login-form .group .button {
+	font-size:10px;
+}
+
+/*===============
+PULSANTI FORM
+=================*/
+
+#btnContainer {
+	width: 95%;
+	margin: auto 11%;
+}
+
+/*===============
+MESSAGGI D'ERRORE
+=================*/
+
+.message {
+	width:90%;
+	margin: 5%;
+}
+
+/*===============
+USER PANEL
+=================*/
+
+.bloccoDati {
+	width:95%;
+}
+
+.TabUtente {
+	border:1px solid white;
+	padding:1%;
+}
+
+.EntryUtente {
+	float: left;
+	color:#DAAC5E;
+	font-weight: bold;
+	font-size:18px;
+}
+
+.EntryTab {
+	color: white;
+	font-weight: bold;
+	font-size:18px;
+}
+
+.userData {
+	color: white;
+	margin:1% 1%;
+	font-weight: bold;
+	font-size:20px;
+}
